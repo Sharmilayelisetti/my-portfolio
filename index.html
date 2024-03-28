@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sharmila Yelisetti - Web Developer</title>
+<style>
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 50%, 98%);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #121111;
+  color: white;
+  text-align: right;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.topnav a:hover {
+  background-color: #555;
+}
+
+/* Header section */
+.header {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("C:\Users\hp\Downloads\p1.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+}
+
+.header h1 {
+  font-size: 60px;
+  color: #080808;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header h2 {
+  color: #080808;
+}
+
+/* About section */
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.about-section h1 {
+  margin-bottom: 20px;
+}
+
+.about-section h6 {
+  margin: 0;
+}
+
+/* Skills section */
+.skills-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.skills-section h1 {
+  margin-bottom: 20px;
+}
+
+/* Contact section */
+.contact-section {
+  padding: 50px;
+}
+
+.contact-section h1 {
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-section label, .contact-section input, .contact-section select, .contact-section textarea, .contact-section input[type=submit] {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.contact-section input[type=submit] {
+  background-color: #046aaa;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+
+.contact-section input[type=submit]:hover {
+  background-color: #26c2dd;
+}
+
+/* Footer */
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#Home">Home</a>
+  <a href="C:\Users\hp\Downloads\home portfolio 22.html">About</a>
+  <a href="C:\Users\hp\Downloads\contact .html">Contact</a>
+  <a href="C:\Users\hp\Downloads\last page footer.html">Footer</a>
+</div>
+
+<header class="header">
+  <div class="container">
+    <h1>I am Sharmila Yelisetti</h1>
+    <h2>And I'm a Web Developer</h2>
+  </div>
+</header>
+
+<section class="about-section">
+  <div class="container">
+    <h1>About Me</h1>
+    <h6>I am Sharmila Yelisetti from Vizag. Currently pursuing BTech second year with a specialization in Artificial Intelligence and Data Science at Kakinada Institute of Engineering and Technology. I completed my schooling at Mother Teresa School and my intermediate at Sri Chaitanya Junior College in Vishakapatnam. I am proficient in programming languages like Java, C, C++, and Python. I also completed a FMML course by IIIT Hyderabad.</h6>
+  </div>
+</section>
+
+<section class="skills-section">
+  <div class="container">
+    <h1>My Skills</h1>
+    <div>
+      <p>C Language</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+      </div>
+    </div>
+    <div>
+      <p>C++</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+      </div>
+    </div>
+    <div>
+      <p>Java</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+      </div>
+    </div>
+    <div>
+      <p>Python</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <h1>Contact Me</h1>
+    <div class="row">
+      <div class="column">
+        <img src="C:\Users\hp\Downloads\p1.jpg" style="width: 100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Others">Others</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p>Find me on social media.</p>
+    <h5>Address: Vishakapatnam</h5>
+    <h5>Email: yellisettibaburao@gmail.com</h5>
+    <h5
